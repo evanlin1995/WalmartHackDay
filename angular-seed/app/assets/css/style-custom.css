@@ -1,6 +1,6 @@
 
 .navbar-default {
-  background-color: #4448d8;
+  background-color: #191969;
   border-color: #1e45a3;
 }
 .navbar-default .navbar-brand {
@@ -20,7 +20,7 @@
   color: #fbfbfb;
 }
 .dropdown-menu {
-  background-color: #4448d8;
+  background-color: #191969;
 }
 .dropdown-menu > li > a {
   color: #e6e8e8;
@@ -126,25 +126,40 @@
 #add-item-button {
   height: 40px;
   width: 80px;
-  box-shadow: 1px 1px 1px 1px #4448d8;
+  color: white;
+  background-color: #1616BC;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #141454;
+  border-radius: 5px;
 }
 
 #cancel-checkout-button {
   height: 40px;
   width: 80px;
-  box-shadow: 1px 1px 1px 1px #FF3030;
+  color: white;
+  background-color: #1616BC;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #141454;
+  border-radius: 5px;
+  /*box-shadow: 1px 1px 1px 1px #FF3030;*/
   /*background-color: #FF3030;*/
 }
 
 .glyphicon-shopping-cart {
-  color: black;
+  color: orange;
 }
 
 #checkout-button {
   height: 40px;
   width: 80px;
   /*background-color: #ffb347;*/
-  box-shadow: 1px 1px 1px 1px orange;
+  background-color: #1616BC;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #141454;
+  border-radius: 5px;
 }
 
 #wrap {
@@ -168,7 +183,7 @@
 
 #footer {
   position: absolute;
-  background-color: #4448d8;
+  background-color: #191969;
   border-top: solid 1px;
   border-color: #1e45a3;
   height: 80px;
