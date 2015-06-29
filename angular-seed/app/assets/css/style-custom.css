@@ -1,0 +1,182 @@
+
+.navbar-default {
+  background-color: #4448d8;
+  border-color: #1e45a3;
+}
+.navbar-default .navbar-brand {
+  color: #e6e8e8;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #fbfbfb;
+}
+.navbar-default .navbar-text {
+  color: #e6e8e8;
+}
+.navbar-default .navbar-nav > a {
+  color: #e6e8e8;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fbfbfb;
+}
+.dropdown-menu {
+  background-color: #4448d8;
+}
+.dropdown-menu > li > a {
+  color: #e6e8e8;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fbfbfb;
+  background-color: #1e45a3;
+}
+.dropdown-menu > li > .divider {
+  background-color: #4448d8;
+
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fbfbfb;
+  background-color: #1e45a3;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #fbfbfb;
+  background-color: #1e45a3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #1e45a3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #1e45a3;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e6e8e8;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e6e8e8;
+}
+.navbar-default .navbar-link {
+  color: #e6e8e8;
+}
+.navbar-default .navbar-link:hover {
+  color: #fbfbfb;
+}
+
+@media (max-width: 767px) {
+  .dropdown-menu > li > a {
+    color: #e6e8e8;
+  }
+  .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fbfbfb;
+  }
+  .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fbfbfb;
+    background-color: #1e45a3;
+  }
+}
+
+.navbar-fixed-top {
+  height: 90px; /* Whatever you want. */
+}
+
+.navbar-brand {
+  padding-left: 40px;
+}
+
+.navbar-brand {
+  height: 100px;
+  padding: 20px 25px;
+  line-height: 40px;
+}
+
+#logo {
+  max-width: 300px;
+  margin-top: -7px;
+  margin-left: 20px;
+}
+
+#search-bar {
+  position: relative;
+  top: 100px;
+}
+
+.custom-input {
+/*  width: 200px;*/
+  position: relative;
+  left: -9px;
+  width: 75%;
+}
+
+#cart {
+  position: relative;
+  top: 150px;
+}
+
+#checkout {
+  position: absolute;
+  right: 25px;
+  bottom: 100px;
+}
+
+#add-item-button {
+  height: 40px;
+  width: 80px;
+  box-shadow: 1px 1px 1px 1px #4448d8;
+}
+
+#cancel-checkout-button {
+  height: 40px;
+  width: 80px;
+  box-shadow: 1px 1px 1px 1px #FF3030;
+  /*background-color: #FF3030;*/
+}
+
+.glyphicon-shopping-cart {
+  color: black;
+}
+
+#checkout-button {
+  height: 40px;
+  width: 80px;
+  /*background-color: #ffb347;*/
+  box-shadow: 1px 1px 1px 1px orange;
+}
+
+#wrap {
+  height: 100%;
+}
+
+#error {
+  position: absolute;
+  left: 120px;
+  bottom: 105px;
+  font-size: 18px;
+  color: red;
+}
+
+#total {
+  position: absolute;
+  right: 65px;
+  bottom: 175px;
+  font-size: 18px;
+}
+
+#footer {
+  position: absolute;
+  background-color: #4448d8;
+  border-top: solid 1px;
+  border-color: #1e45a3;
+  height: 80px;
+  width: 100%;
+  bottom: 0px;
+}
+
+#footer > p {
+  color: white;
+}
+
